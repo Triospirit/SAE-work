@@ -1,0 +1,313 @@
+#popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#popup form {
+  display: grid;
+  gap: 10px;
+  max-height: 300px; /* Hauteur maximale du formulaire */
+  overflow-y: auto; /* Afficher la barre de défilement verticale si nécessaire */
+}
+
+#popup .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#popup label {
+  font-weight: bold;
+}
+
+#popup input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#popup input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#popup input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style pour le bouton d'inscription */
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.popupsee {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  text-align: center;
+}
+
+.popup-content {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.popup-title {
+  margin-top: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+}
+
+
+
+#popupdelete {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#popupdelete form {
+  display: grid;
+  gap: 10px;
+  max-height: 300px; /* Hauteur maximale du formulaire */
+  overflow-y: auto; /* Afficher la barre de défilement verticale si nécessaire */
+}
+
+#popupdelete .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#popupdelete label {
+  font-weight: bold;
+}
+
+#popupdelete input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#popupdelete input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#popupdelete input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style pour le bouton d'inscription */
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.popupdelete {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  text-align: center;
+}
+
+.popupdelete-content {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.popupdelete-title {
+  margin-top: 0;
+}
+
+.closedelete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+#popupupdate {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#popupupdate form {
+  display: grid;
+  gap: 10px;
+  max-height: 300px; /* Hauteur maximale du formulaire */
+  overflow-y: auto; /* Afficher la barre de défilement verticale si nécessaire */
+}
+
+#popupupdate .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#popupupdate label {
+  font-weight: bold;
+}
+
+#popupupdate input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#popupupdate input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#popupupdate input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style pour le bouton d'inscription */
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.popupupdate {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  text-align: center;
+}
+
+.popupupdate-content {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.popupupdate-title {
+  margin-top: 0;
+}
+
+.closeupdate-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+}
